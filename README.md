@@ -1,5 +1,5 @@
 # csv-combiner
-Node JS program that takes several CSV files as arguments and merges themin to a new CSV file.
+Node JS program that takes several CSV files as arguments and merges them in to a new CSV file.
 
 # Steps to run the program
 npm install
