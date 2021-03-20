@@ -22,6 +22,7 @@ describe("Generate merged CSV file with the combination of other files", () => {
   it("stop execution if no files to merge", async () => {
     const filePaths = [];
     const checkFiles = await mergeFiles(filePaths);
-    expect(checkFiles).to.be.eq(filePaths);
+    expect(checkFiles).to.be.a.file(filePaths);
+    expect(checkFile).to.be.a.file(filePaths).and.not.empty;
   });
 });
